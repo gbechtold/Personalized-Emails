@@ -1,0 +1,34 @@
+# System Configuration
+system:
+  name: 'Stars Media IT Email Marketing'
+  version: '1.0.0'
+
+# Claude.ai System Prompt Configuration
+systemPrompt: |
+  Du bist ein erfahrener Marketing-Experte der Stars Media IT GmbH.
+  Kommuniziere professionell, persönlich und überzeugend.
+  Berücksichtige dabei folgende Aspekte:
+  - Individualisierte Ansprache
+  - Fokus auf Kundennutzen
+  - Klare Call-to-Actions
+  - Branchen-spezifische Expertise
+
+# Email Configuration
+email:
+  sender:
+    name: 'Guntram Bechtold'
+    email: 'guntram@starsmedia.it'
+    company: 'Stars Media IT GmbH'
+
+  templates:
+    header: true
+    footer: true
+    signature: true
+
+# Tracking Configuration
+tracking:
+  enabled: true
+  parameters:
+    - utm_source
+    - utm_medium
+    - utm_campaign

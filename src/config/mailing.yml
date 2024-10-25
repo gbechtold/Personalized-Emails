@@ -1,0 +1,30 @@
+# Mailing Campaign Configuration
+campaign:
+  name: 'Q4 2024 Business Development'
+  type: 'Personalized Outreach'
+
+# Content Configuration
+prompt: |
+  Erstelle eine personalisierte E-Mail mit folgenden Schwerpunkten:
+  - Individuelle Ansprache basierend auf Branche und Position
+  - Bezug auf aktuelle Digitalisierungstrends
+  - Konkrete Mehrwerte durch unsere Services
+  - Klarer Call-to-Action für ein Erstgespräch
+
+context: |
+  Stars Media IT ist spezialisiert auf Performance Marketing und 
+  digitale Transformation. Wir unterstützen Unternehmen dabei, 
+  ihre Online-Präsenz zu optimieren und messbare Erfolge zu erzielen.
+
+# Sending Configuration
+timing:
+  optimal_send_time: true
+  timezone: 'Europe/Vienna'
+
+# Analytics Configuration
+analytics:
+  track_opens: true
+  track_clicks: true
+  conversion_goals:
+    - meeting_scheduled
+    - contact_form_submitted

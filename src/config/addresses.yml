@@ -1,0 +1,10 @@
+# config/addresses.yml
+recipients:
+  - name: Jonney Stars
+    gender: male
+    email: info@starsmedia.com
+    company: Stars Media IT GmbH
+  - name: Jessica Medias
+    email: team@starsmedia.com
+    gender: female
+    company: Stars Media IT Management KG
